@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Les Avantage de La Fomration en Ligne</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="stylesite2.css">
+
+</head>
+<body onload="fadeInPage()">
+  
+  <div id="page" class="fade-container">
+    
+  
+<!-- Header -->
+<header>
+  <div class="header-inner">
+    <div class="logo">🔷 Certibiocide</div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav id="mobileMenu">
+      <a href="index.html">Accueil</a>
+      <a href="certifier.html">Pourquoi se certifier ?</a>
+      <a href="comment.html">Comment ça marche ?</a>
+      <a href="La Certification Certibiocide.html">La Certification Certibiocide</a>
+      <a href="avantage.html">Avantages</a>
+      <a href="Temoignage.html">Témoignages</a>
+      <a href="#contact-form">Contact</a>
+      <a href="faq.html">FAQ</a>
+
+      
+    </nav>
+  </div>
+</header>
+ <header class="faq-header">
+  <h1>FAQ (Question fréquement posées)</h1>
+  <p>Avez-vous des questions ?<br> Consultez notre FAQ ci-dessous pour trouver des réponses à vos interrogations.</p>
+  <a href="#faq">Voir les questions</a>
+ </header>
+
+ <section class="faq-section" id="faq">
+    <h2 class="faq-title">Questions fréquentes</h2>
+
+    <div class="faq-item">
+      <div class="faq-icon">
+        <i class="fas fa-circle-question"></i>
+      </div>
+      <div class="faq-content">
+        <h3>Comment m'inscrire à la formation ?</h3>
+        <p>Il suffit de remplir le formulaire d'inscription sur la page "Formation" et de procéder au paiement en ligne.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-icon">
+        <i class="fas fa-circle-question"></i>
+      </div>
+      <div class="faq-content">
+        <h3>Quel est le délai pour obtenir la certification après la formation ?</h3>
+        <p>La certification est délivrée après avoir réussi l'examen final en ligne. En général, les résultats sont disponibles sous 48h.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq-cta">
+    <h2>Vous ne trouvez pas la réponse à votre question ?</h2>
+    <p>N'hésitez pas à nous contacter directement, nous serons ravis de vous aider.</p>
+    <a href="contact.html">Nous contacter</a>
+  </section>
+
+
+
+
+
+<!-- Footer -->
+
+<footer class="cbio-footer">
+    <div class="cbio-footer-container">
+      <div class="cbio-col cbio-branding">
+        <h4 class="cbio-logo">📋 CertiBiocide</h4>
+        <p class="cbio-description">Formation en ligne pour devenir technicien certifié en gestion des nuisibles.</p>
+      </div>
+
+      <div class="cbio-col">
+        <h4 class="cbio-title">Navigation</h4>
+        <ul class="cbio-list">
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">Formation</a></li>
+          <li><a href="#">Certification</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="cbio-col">
+        <h4 class="cbio-title">Légal</h4>
+        <ul class="cbio-list">
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Politique de confidentialité</a></li>
+          <li><a href="#">CGV</a></li>
+        </ul>
+      </div>
+
+      <div class="cbio-col">
+        <h4 class="cbio-title">Contact</h4>
+        <ul class="cbio-list">
+          <li><a href="mailto:contact@certibiocide.fr">📧 contact@certibiocide.fr</a></li>
+          <li><a href="tel:+33123456789">📞 01 23 45 67 89</a></li>
+        
+        </ul>
+      </div>
+    </div>
+    <div class="cbio-footer-bottom">
+      <p>© 2023 CertiBiocide. Tous droits réservés.</p>
+    </div>
+  </footer>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mainNav').classList.toggle('active');
+    }
+    function subscribeAlert() {
+  alert("Merci pour votre intérêt ! Vous serez redirigé vers le formulaire d'inscription.");
+}
+
+function fadeInPage() {
+    document.getElementById("page").classList.add("active");
+  }
+  </script>
+</body>
+</html>
