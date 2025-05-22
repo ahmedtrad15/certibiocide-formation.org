@@ -88,10 +88,15 @@ nav a:hover {
     margin-top: 1rem;
     border-top: 1px solid #ddd;
     padding-top: 1rem;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
   }
 
   nav.active {
     display: flex;
+     opacity: 1;
+    transform: translateY(0);
   }
 
   .menu-toggle {
